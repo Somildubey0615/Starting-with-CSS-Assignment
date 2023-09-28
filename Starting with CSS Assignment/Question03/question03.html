@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form with CSS Styling</title>
+    <link rel="stylesheet" href="question03.css">
+</head>
+
+<body>
+    <h1>Sign Up Form</h1>
+    <form action="/signup.js" method="post"> <br>
+
+        <div class="firstname">
+            <label for="first name">First name</label> <br>
+            <input type="text" name="first name" id="first name" required placeholder="First name" minlength="3"
+                title="First name must be atlest 3 characters long">
+        </div>
+        <br>
+
+        <div class="lastname">
+            <label for="last name">Last name</label> <br>
+            <input type="text" name="last name" id="last name" required placeholder="last name" minlength="3"
+                title="last name must be atlest 3 characters long">
+        </div>
+        <br>
+
+        <div class="email">
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" required placeholder="Type your Email" minlength="3"
+                title="Email must be atlest 3 characters long">
+        </div> <br>
+
+        <div class="password">
+            <label for="password">Password</label> <br>
+            <input type="password" id="password" name="password" required placeholder="Your password" minlength="8"
+                title="password must be atlest 8 characters long">
+        </div> <br>
+
+        <div class="cnfmpswd">
+            <label for="confirm password">Confirm Password</label> <br>
+            <input type="password" id="confirm password" name="confirm password" required placeholder="confirm password"
+                minlength="8" title="password must be atlest 8 characters long">
+        </div> <br>
+
+
+        <div class="age">
+            <label for="age">Age</label> <br>
+            <input type="number" id="age" name="age" required placeholder="your age" min="0" max="70" > 
+        </div> <br>
+
+        <div class="gender">
+            <label for="gender">Gender :</label> <br> <br>
+            <input type="radio" name="gender" id="male" required>Male
+            <input type="radio" name="gender" id="female" required>Female
+        </div><br>
+
+        <div class="dob">
+            <label for="date of birth">Date of Birth</label> <br> <br>
+            <input type="date" id="date of birth" name="date of birth" required>
+        </div><br>
+
+        <div class="checkbox">
+            <label for="agree"></label>
+            <input type="checkbox" name="agree" id="agree" required>I have read and agree to the terms and conditions useragreement and the privacy policy.
+        </div><br>
+
+          <input class="submit" type="submit" value="Sign up">
+        
+ </form>
+</body>
+
+</html>

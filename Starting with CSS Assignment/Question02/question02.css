@@ -1,0 +1,32 @@
+.main {
+    background: rgb(205, 124, 205);
+}
+
+.main__para1 {
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+
+.main__para2{
+    background-color: #12a3a3ea;
+}
+
+.main__para3 {
+    background-color: #a41996;
+}
+
+.main__para4 {
+    background-color: #b69e15;
+}
+
+.main__para5 {
+    background-color: #008000;
+}
+
+.main__para5--p1 {
+    background-color: rgb(81, 82, 153);
+}
+
+.main__para5--p2 {
+    background-color: #94d694;
+}

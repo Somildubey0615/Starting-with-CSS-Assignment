@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>A webpage with CSS styling and ways of adding css style</title>
+    <link rel="stylesheet" href="question01.css">
+    <style>
+        .box1 {
+            background-color: chartreuse;
+            color: aliceblue;
+        }
+
+        .box2 {
+            height: 150px;
+            width: 150px;
+            color: rgb(207, 217, 217);
+            background-color: rgb(180, 15, 0);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>A webpage with CSS styling</h1>
+    <div>
+        <!-- this is inline css -->
+        <div class="box1"
+            style="height: 100px; width: 150px; color: rgb(205, 205, 212); background-color: rgb(120, 21, 90);">box1
+        </div>
+        <!-- You can se here we applied css in 3 ways - inline css,external css and internal css and as a result you can see inline css is applied so it shows the inline css is prior. -->
+
+        <!-- inline css > internal css > external css -->
+
+        <div class="box2">box2 </div>
+
+        <!-- in box2 we applied internal and external css and in result we got internal css is prior between internal css and external css.  -->
+
+        <!-- internal css > external css  -->
+
+        <div class="box3">box3</div>
+
+        <!-- in box3 we just applied external css beacuse external css only applies in the absense of inline css and internal css beacuse it is less prior but in project or professional work we always use external css  -->
+
+
+    </div>
+</body>
+
+</html>

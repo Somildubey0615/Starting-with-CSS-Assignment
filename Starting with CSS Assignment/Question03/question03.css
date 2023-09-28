@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.firstname input,.lastname input ,.email input,.password input,.cnfmpswd input{
+      
+    width: 20%;
+    background-color: rgb(91, 97, 122,);
+    opacity: .6;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 5px;
+    
+}
+body{
+    background-color: #041d4c;
+
+    
+}
+.checkbox {
+    color: #d0e1e1;
+    font-size:20px ;
+    
+}
+.gender{
+    color: #faebd7;
+    font-size: 20px;
+}
+.submit{
+    font-size: 18px;
+    background-color: rgb(16, 122, 188);
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    
+    }
+.submit:hover{
+    background-color: blueviolet;
+}
+h1{
+    color: rgb(235, 229, 228);
+    background-color: rgba(0, 0, 0, 0.559);
+    text-align: center;
+    font-size: 25px;
+}
+.age input{
+    background-color:rgba(91, 97, 122, 0.221);
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.dob input{
+        margin-left: 5px;
+        font-size: 18px;
+        background-color:rgba(91, 97, 122, 0.221); 
+        border-radius: 5px;
+}
